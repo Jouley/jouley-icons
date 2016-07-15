@@ -1,27 +1,9 @@
 <link rel="import" href="../polymer/polymer.html">
 
-<dom-module id="jouley-icons">
-  <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
-    <h2>Hello [[prop1]]</h2>
-  </template>
-
-  <script>
-    Polymer({
-
-      is: 'jouley-icons',
-
-      properties: {
-        prop1: {
-          type: String,
-          value: 'jouley-icons',
-        },
-      },
-
-    });
-  </script>
-</dom-module>
+<iron-iconset-svg name="jouley-icons" size="24">
+  <defs><svg>
+    <g id="pause"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></g>
+    <g id="play"><path d="M8 5v14l11-7z"/></g>
+    <g id="stop"><path d="M6 6h12v12H6z"/></g>
+  </svg></defs>
+</iron-iconset-svg>
