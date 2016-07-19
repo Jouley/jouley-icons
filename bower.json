@@ -1,5 +1,6 @@
 {
   "name": "jouley-icons",
+  "version": "0.0.1",
   "description": "Jouley&#39;s icons",
   "main": "jouley-icons.html",
   "dependencies": {
